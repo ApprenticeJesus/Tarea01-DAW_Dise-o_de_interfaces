@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!--Icono de la web para el navegador-->
+    <link rel="shortcut icon" href="IMAGENES/favicon.png" />
+
+    <!--Color del navegador para Android-->
+    <meta name="theme-color" content="#660000" />
+    <!--Color del navegador para Microsoft-->
+    <meta name="msapplication-TileColor" content="#660000" />
+    <!--Color del navegador para Apple-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#660000" />
+
+    <!--Codificación de la página-->
+    <meta charset="utf-8" />
+
+    <title>Panes para Soñar</title>
+
+    <meta name="description" content="Venta de productos de panadería y bollería, así como ofrecer servicios varios." />
+    <meta name="keywords" content="pan, panaderia, barra, bollo, rosca, hogaza, pan de centeno, pan de cereales, pan integral, pan sin gluten, dulces, tarta, magdalena, bizcocho, croissant, ensaimada, hojaldre, empanadas, saladito, bretzel, mesa de comunion, cumpleaños, boda, bautizo"
+    />
+
+    <!--CSS-->
+    <link href="CSS/estilo.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <!-- HEADER: CABECERA CON LOGO, TÍTULO Y MENÚ DE NAVEGACIÓN HORIZONTAL -->
+    <header>
+        <img id="logo" src="IMAGENES/logo64.png" title="Logo panadería" />
+
+        <h1>Panes para soñar</h1>
+
+        <nav id="menu-horizontal">
+            <ul class="sin-estilo">
+                <li id="h-nav"><a class="sin-estilo" href="#ubicacion">UBICACIÓN</a></li>
+                <li id="h-nav"><a class="sin-estilo" href="#conocenos">CONÓCENOS</a></li>
+                <li id="h-nav"><a class="sin-estilo" href="#contacto">CONTACTO</a></li>
+                <li id="idioma" class="primero idioma-actual">Español</li>
+                <li id="idioma" class="barra"> | </li>
+                <li id="idioma" class="ultimo idioma-cambiar"><a href="index_en.html" class="subrayado sin-estilo">English</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ZONA CENTRAL: MENÚ DE NAVEGACIÓN VERTICAL Y ZONA DE CONTENIDO -->
+    <div id="zona-central">
+        <!-- GALERÍA PRINCIPAL -->
+        <div class="slider">
+            <ul>
+                <li><img src="IMAGENES/portada-pan.jpg" alt="pan" /></li>
+                <li><img src="IMAGENES/portada-torrijas.jpg" alt="torrijas" /></li>
+                <li><img src="IMAGENES/portada-cafe.jpg" alt="cafe" /></li>
+            </ul>
+        </div>
+
+        <div id="contenido">
+            <h2>Panes para soñar</h2>
+
+
+            <!-- ENLACES A LAS DISTINTAS PÁGINAS WEB DEL SITIO -->
+            <section id="enlaces">
+                <div id="texto-img-contenedor" class="efecto">
+                    <a href="panaderia.html" class="sin-estilo">
+                        <div id="img-contenedor">
+                            <img src="IMAGENES/enlace-panaderia.jpg" alt="panes" />
+                        </div>
+                        <div id="texto-contenedor">
+                            Panadería
+                        </div>
+                    </a>
+                </div>
+                <div id="texto-img-contenedor" class="efecto">
+                    <a href="pasteleria.html" class="sin-estilo">
+                        <div id="img-contenedor">
+                            <img src="IMAGENES/enlace-pasteleria.jpg" alt="pasteles" />
+                        </div>
+                        <div id="texto-contenedor">
+                            Pastelería
+                        </div>
+                    </a>
+                </div>
+                <div id="texto-img-contenedor" class="efecto">
+                    <a href="bolleria.html" class="sin-estilo">
+                        <div id="img-contenedor">
+                            <img src="IMAGENES/enlace-bolleria.jpg" alt="bollería" />
+                        </div>
+                        <div id="texto-contenedor">
+                            Bollería
+                        </div>
+                    </a>
+                </div>
+                <div id="texto-img-contenedor" class="efecto">
+                    <a href="servicios.html" class="sin-estilo">
+                        <div id="img-contenedor">
+                            <img src="IMAGENES/enlace-caterin.jpg" alt="comida" />
+                        </div>
+                        <div id="texto-contenedor">
+                            Servicios de cáterin
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+
+            <!-- PRODUCTO EN PROMOCIÓN -->
+            <section id="promocion" class="efecto-promocion">
+                <img src="IMAGENES/PRODUCTOS/promocion1.jpg" alt="promoción" />
+                <p>Promoción válida hasta 31/05/2019</p>
+            </section>
+
+
+            <!-- ZONA CON ALGUNOS PRODUCTOS -->
+            <section id="productos">
+                <h3>Productos</h3>
+                <div id="producto-contenedor">
+                    <img id="producto-imagen" src="IMAGENES/PRODUCTOS/panNormal-molde.png" alt="pan de molde" />
+                    <div id="producto-texto">
+                        <h4>Pan normal de molde</h4>
+                        <p>Pan de molde casero ideal para cortar y tostar.
+                            <p>
+                                <p><b>Precio: </b>6€</p>
+                    </div>
+                </div>
+                <div id="producto-contenedor">
+                    <img id="producto-imagen" src="IMAGENES/PRODUCTOS/panEspecial-semillas.png" alt="pan de semillas" />
+                    <div id="producto-texto">
+                        <h4>Pan con semillas de molde</h4>
+                        <p>Pan de molde casero con semillas, rico en fibra.</p>
+                        <p><b>Precio: </b>7€</p>
+                    </div>
+                </div>
+                <div id="producto-contenedor">
+                    <img id="producto-imagen" src="IMAGENES/PRODUCTOS/pasteleria-tartaQueso.png" alt="tarta de queso" />
+                    <div id="producto-texto">
+                        <h4>Tarta de queso</h4>
+                        <p>Cremosa tarta de queso y cobertura de frambuesa.</p>
+                        <p><b>Precio: </b>25€</p>
+                    </div>
+                </div>
+                <div id="producto-contenedor">
+                    <img id="producto-imagen" src="IMAGENES/PRODUCTOS/bolleria-bizcochoLimon.png" alt="bizcocho de limón" />
+                    <div id="producto-texto">
+                        <h4>Bizcocho de limón</h4>
+                        <p>Bizcocho de limón, un acierto para cualquier momento del día.</p>
+                        <p><b>Precio: </b>16€</p>
+                    </div>
+                </div>
+                <a>Ubicación</a>
+            </section>
+
+
+            <!-- RESTO DE LA ZONA DE CONTENIDO -->
+            <section id="mapa">
+                <h3>Ubicación</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.888553763438!2d-4.923355585491858!3d36.53268298000443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72d7b91c1855cd%3A0x6a4c6fce5c56d664!2sStarlite%20Marbella!5e0!3m2!1ses!2ses!4v1569600441002!5m2!1ses!2ses"
+                    width="100%" height="500" style="border:0;" allowfullscreen="" title="localización"></iframe>
+                <p><a>Conócenos</a></p>
+                <!-- Si no uso <p> no se encuadra bien al usar el marcador -->
+            </section>
+
+            <section id="elemento-texto">
+                <h3>Conócenos</h3>
+                <div id="zona-texto">
+                    <p>Desde sus inicios en <b>1983</b> hasta la actualidad, compartiendo el mismo objetivo: ser una experiencia.</p>
+                    <p>Para ello, el valioso equipo humano de <b>panes para soñar</b> despierta con la ilusión de tener preparado cualquiera de sus sabrosos productos día a día.</p>
+                    <p>Fabricamos y distribuimos de forma exclusiva, a lo largo de toda la provincia de <b>Málaga</b>. Panadería de confianza, dulces exquisitos tradicionales y el mejor café.</p>
+                    <p>Panes para soñar, una historia de calidad, sabor, esfuerzo y dedicación, para las más <b>artesanas elaboraciones</b> panaderas.</p>
+                </div>
+            </section>
+
+            <a>Contacto</a>
+
+            <section id="elemento-texto">
+                <h3>Contacto</h3>
+                <div id="zona-texto">
+                    <p>Panes para soñar</p>
+                    <p>Calle Albinoni s/n, Starlite - 29602, Marbella (Málaga)</p>
+                    <p><a href="tel:+34999999999" id="telefono" class="sin-estilo">999 999 999</a></p>
+                    <form action="" method="post">
+                        <p>
+                            <fieldset>
+                                <legend>Formulario de contacto:</legend>
+                                <p><input type="text" class="campo" name="nombre" placeholder="Nombre completo" autocomplete required></p>
+                                <p><input type="tel" class="campo" name="telefono" placeholder="Nº de teléfono" autocomplete required></p>
+                                <p><input type="email" class="campo" name="email" placeholder="Correo electrónico" autocomplete required></p>
+                                <p><textarea name="mensaje" placeholder="Escribe el mensaje" required></textarea></p>
+                                <p>Todos los campos son obligatorios.</p>
+                            </fieldset>
+                        </p>
+                        <input type="submit" class="boton" value="Enviar">
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <section id="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </section>
+    </div>
+
+
+    <!-- PIE -->
+    <footer>
+        <p id="info-pie" class="sin-estilo">Calle Albinoni s/n, Starlite - 29602, Marbella (Málaga)</p>
+        <p id="info-pie" class="sin-estilo"><a href="mailto:direccion@correo.com?subject=Pregunta desde la web" class="subrayado sin-estilo">direccion@correo.com</a></p>
+        <p id="info-pie" class="sin-estilo"><a href="tel:+34999999999" class="sin-estilo">999 999 999</a></p>
+        <p id="mapa-web"><a href="mapa-web.html" class="subrayado sin-estilo">Mapa del sitio web</a></p>
+    </footer>
+
+
+</body>
+
+</html>
